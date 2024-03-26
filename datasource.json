@@ -1,0 +1,22 @@
+{
+  "candidatos": {
+    "url": "https://cdn.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_{ano}.zip",
+    "path" : "/dbfs/mnt/tse/candidatos/",
+    "sufix_not_remove": "BRASIL.csv"
+  },
+  "bem_candidatos": {
+    "url": "https://cdn.tse.jus.br/estatistica/sead/odsele/bem_candidato/bem_candidato_{ano}.zip",
+    "path" : "/dbfs/mnt/tse/bem_candidatos/",
+    "sufix_not_remove": "BRASIL.csv"
+  },
+  "votacao": {
+    "url": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_secao/votacao_secao_{ano}_BR.zip",
+    "path" : "/dbfs/mnt/tse/votacao/",
+    "sufix_not_remove": "BR.csv"
+  },
+  "votacao_uf": {
+    "url": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_secao/votacao_secao_{ano}_{uf}.zip",
+    "path" : "/dbfs/mnt/tse/votacao/",
+    "sufix_not_remove": ".csv"
+  }
+}
