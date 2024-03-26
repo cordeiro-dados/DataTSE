@@ -69,10 +69,6 @@ remove_files(base_path, sufix_not_remove)
 
 # COMMAND ----------
 
-dbutils.fs.ls("/mnt/tse/votacao")
-
-# COMMAND ----------
-
 df = (spark.read
       .format("csv")
       .options(**{
@@ -82,6 +78,10 @@ df = (spark.read
       .load("/mnt/tse/votacao/"))
       
 df.count()
+
+# COMMAND ----------
+
+dbutils.fs.ls("/mnt/tse/votacao")
 
 # COMMAND ----------
 
